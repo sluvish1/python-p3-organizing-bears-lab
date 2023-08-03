@@ -8,10 +8,3 @@ INSERT INTO bears (id, name, age, sex, color, temperament, alive) VALUES
 (7,"Wendy", 6, "F", "Blue", "naive", 1),
 (8,null, 20, "M", "black", "aggressive", 0);
 
-select_all_female_bears_return_name_and_age = "
-    SELECT
-        bears.name,
-        bears.age
-    FROM bears
-    WHERE sex='F';
-"
